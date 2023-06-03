@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <title>Image Resize & compress</title>
+
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <div class="box">
+  <div class="img_box">
+   <input id="inputfile" required type="file" src="" alt="" accept="image/*" hidden>
+   <img src="" alt="Upload your Image">
+  </div>
+  <P>Upload Your Image.</P>
+  <div class="option">
+   <div class="option_box">
+   <input type="checkbox" name="check" id="resize" checked />
+   <label for="resize">Resize Image</label>
+   </div>
+   <div class="option_box">
+   <input type="checkbox" name="check" id="reduce" />
+   <label for="reduce">Reduce Quality</label>
+   </div>
+  </div>
+  <div class="size">
+   <div class="option_box">
+   <label for="height">Height</label>
+   <input type="number" id="height">
+   </div>
+   <div class="option_box">
+   <label for="width">Width</label>
+   <input type="number" id="width">
+   </div>
+  </div>
+  <div class="btn">
+   <button id="downloadbtn">Download Image</button>
+  </div>
+ </div>
+ <script src="main.js"></script>
+</body>
+
+</html>

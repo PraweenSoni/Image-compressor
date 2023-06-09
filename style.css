@@ -73,8 +73,8 @@ button{
  border-radius: 5px;
  font-size: 1.1rem;
  color: white;
- opacity: 0.6;
- pointer-events: none;
+ /*opacity: 0.6;
+ pointer-events: none;*/
  user-select: none;
 }
 /* #inputfile:valid ~ button{

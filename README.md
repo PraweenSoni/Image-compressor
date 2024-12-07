@@ -1,26 +1,75 @@
-# Image Compressor and Resizer Project
-Welcome to the Image Compressor and Resizer project! This project is designed to help you compress and resize images efficiently. Whether you want to reduce the file size of your images for faster loading on websites or simply resize them for specific display requirements, this tool has got you covered.
-Features
+# Image Compressor and Resizer Project 🚀  
 
-Image Compression: Reduce the file size of your images without compromising too much on quality. This is especially useful for web developers and designers who want to optimize their website's performance.
+Welcome to the **Image Compressor and Resizer** project! This tool is designed to help you compress and resize images efficiently, making it perfect for web developers, designers, and anyone who wants to optimize image size and dimensions for various purposes.  
 
-Image Resizing: Change the dimensions of your images to fit specific requirements. This is handy when you need images of a consistent size for a gallery, social media, or other platforms.
-User-Friendly Interface: The project comes with a simple and intuitive user interface, making it easy for users of all levels to compress and resize images effortlessly.
+## ✨ Features  
 
-Multiple Image Format Support: The tool supports a variety of image formats, ensuring compatibility with different types of image files.
-You can compressor your image and resize image.<br>
-Click here to go on project :- https://praweensoni.github.io/Image-compressor/<br><br>
-How to use it
-<br>Upload Image And check resize image and you can also Compress image size
-100% Safe.
-<br><br>
-Contributing
+### 📑 **Image Compression**  
+- Reduce the file size of your images without significantly compromising quality.  
+- Perfect for improving website performance and ensuring faster page load times.  
 
-If you'd like to contribute to the project, feel free to fork the repository and submit a pull request. Bug reports, feature requests, and feedback are also welcome. Let's make this tool even better together!
-License
+### 📏 **Image Resizing**  
+- Adjust image dimensions to fit specific requirements.  
+- Ideal for creating consistent image sizes for galleries, social media, or other platforms.  
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+### 👨‍💻 **User-Friendly Interface**  
+- Simple and intuitive design, enabling users of all experience levels to compress and resize images effortlessly.  
 
-Thank you for using the Image Compressor and Resizer! If you have any questions or issues, please don't hesitate to contact us or open an issue on the GitHub repository. Happy compressing and resizing!
+### 🖼️ **Multiple Image Format Support**  
+- Compatible with various image formats, ensuring flexibility and broad usability.  
 
-Praween Soni!
+### ✅ **Safe and Secure**  
+- 100% safe for your images—no data is shared or stored online.  
+
+🔗 **Try it now**: [Image Compressor and Resizer](https://praweensoni.github.io/Image-compressor/)  
+
+---
+
+## 🛠️ How to Use  
+
+1. **Upload Image**: Upload the image you want to compress or resize.  
+2. **Resize**: Adjust the dimensions to your desired width and height.  
+3. **Compress**: Reduce the image file size with a single click.  
+4. **Download**: Save the optimized image to your device.  
+
+---
+
+## 🔮 Upcoming Features  
+
+- **Custom Compression Ratio**:  
+  - Users will be able to select the compression ratio using a dropdown menu for better control.  
+
+---
+
+## 🐞 Known Bugs  
+
+- **Image Height & Width Reset Issue**:  
+  - After downloading an image, the height and width values do not reset to default.  
+
+---
+
+## 🤝 Contributing  
+
+Contributions are always welcome! If you'd like to:  
+- **Fork** the repository and submit a pull request with your changes.  
+- Report bugs, suggest features, or provide feedback via GitHub issues.  
+
+Together, we can make this tool even better for everyone!  
+
+---
+
+## 📄 License  
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.  
+
+---
+
+### 💬 Have Questions?  
+
+Thank you for using the **Image Compressor and Resizer**! If you have any questions, suggestions, or issues:  
+- Open an issue on the [GitHub repository](https://github.com/PraweenSoni/Image-compressor/issues).  
+- Contact me directly.  
+
+Happy compressing and resizing!  
+
+**- Praween Soni**  

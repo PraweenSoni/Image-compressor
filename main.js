@@ -59,3 +59,6 @@ fileInput.onchange = (e) =>{
 img_box.addEventListener("click", () => {
   fileInput.click();
 });
+
+widthinput.value = '';
+heightinput.value = '';

@@ -1,12 +1,15 @@
 const img_box = document.querySelector(".img_box"),
+  img_box2 = document.querySelector(".img_box::before"),
   previewimg = img_box.querySelector("img"),
   fileInput = img_box.querySelector("input"),
+  reduceQty = document.getElementById("comQty"),
   widthinput = document.querySelector(".size #width"),
   heightinput = document.querySelector(".size #height"),
   radioinput = document.querySelector(".option  #resize"),
   quality = document.querySelector(".option #reduce"),
   downloadbtn = document.querySelector("#downloadbtn");
 let ogimgratio;
+
 
 widthinput.addEventListener("keyup", () => {
   const height = radioinput.checked
@@ -26,10 +29,10 @@ const resizeAnddownload = () => {
   const a = document.createElement("a");
 
   const ctx = canvas.getContext("2d");
-
+  // const reduceQtyValue = reduceQty.value
   //also pass 0.1 : 1.0  for more reduce quality (0.1 is lowest)
-
-  const imgQuality = quality.checked ? 0.1 : 1.0;
+  const imgQuality = quality.checked ? parseFloat(reduceQty.value) : 1.0;
+  // const imgQuality = quality.checked ? 0.1 : 1.0;
 
   canvas.width = widthinput.value;
   canvas.height = heightinput.value;

@@ -43,8 +43,8 @@ Welcome to the **Image Compressor and Resizer** project! This tool is designed t
 
 ## 🐞 Known Bugs  
 
-- **Image Height & Width Reset Issue**:  
-  - After downloading an image, the height and width values do not reset to default.  
+- **Blank Image Download**:  
+  - When any image not selected then we click to download image button then it download a blank file with no extenstion.  
 
 ---
 
